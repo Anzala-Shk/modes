@@ -1,0 +1,38 @@
+.card{
+    height: 270px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(50, 49, 49);
+
+}
+
+/* Light Mode */
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar.light-mode {
+    background-color: #f8f9fa;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar.dark-mode {
+    background-color: #212529;
+}
+
+/* Pink Mode */
+body.pink-mode {
+    background-color: #f8bbd0;
+    color: #000;
+}
+
+.navbar.pink-mode {
+    background-color: #f48fb1;
+}
